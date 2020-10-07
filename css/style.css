@@ -1,14 +1,14 @@
-* {
-  box-sizing: border-box;
-}
-
+/* REGOLE GENERALI */
 .container-fluid {
   padding-left: 0;
   padding-right: 0;
 }
-@media screen and (min-width:768px) and (max-width: 992px) {
+@media screen and (min-width:768px)  and (max-width: 1200px) {
   .container {
     width: 100%;
+  }
+  .fas {
+    display: none;
   }
 }
 
@@ -24,17 +24,20 @@ header {
   background-color: transparent;
   border: none;
 }
-.nav:first-child, .navbar-nav:first-child {
-  padding-left: 120px;
-}
 .navbar-brand {
   padding: 10px;
 }
 .navbar-brand img {
-
   max-height: 100%;
 }
+.nav:first-child, .navbar-nav:first-child {
+  padding-left: 120px;
+}
+.fas {
+  margin-left: 1px;
+}
 @media screen and (max-width: 992px) {
+
   .navbar-header {
     float: none;
   }
@@ -73,22 +76,75 @@ header {
     padding-left: 0;
   }
 }
-
 .navbar-default .navbar-nav > li > a {
   font-weight: bold;
   color: #041b4b;
 }
+
 /* JUMBOTRON */
 #mb_jumbotron {
-
-  /* debug */
-  min-height: 450px;
-  background-color: lightgreen;
+  padding: 5% 0;
+  background-image: url("../img/jumbo-bg.jpg");
+  background-size: cover;
+}
+#mb_jumbotron .mb_left {
+  padding: 0;
+  color: white;
+}
+.mb_left.jumbotron {
+  background-color: transparent;
+}
+#mb_jumbotron .mb_left h1 {
+  width: 95%;
+  font-size: 58px;
+  font-weight: bolder;
+}
+.container .jumbotron, .container-fluid .jumbotron {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-
-
-
+.mb_right.jumbotron {
+  text-align: center;
+  background-color: white;
+}
+#mb_jumbotron .mb_right h3 {
+  margin: 20px 0;
+  font-weight: bolder;
+}
+#mb_jumbotron .mb_right h2:last-child {
+  color: #0d71ff;
+}
+.mb_right input {
+  margin: 20px 0;
+}
+.mb_right .form-group a {
+  display: block;
+  padding: 5px 0;
+  margin: 10px 0;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+#mb_jumbo-register-btn,
+#mb_jumbo-google-login {
+  text-decoration: none;
+}
+#mb_jumbo-register-btn {
+  background-color: #579aff;
+}
+#mb_jumbo-google-login {
+  position: relative;
+  border: 1px solid lightgrey;
+  color: grey;
+}
+#mb_jumbo-google-login i {
+  color: red;
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
 /* MAIN */
 main > section {
