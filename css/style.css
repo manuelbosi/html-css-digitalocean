@@ -191,6 +191,7 @@ main > section {
 }
 #mb_customers .row > div img {
   max-width: 100%;
+  transform: scale(1.2);
 }
 
 /* DEPLOY */
