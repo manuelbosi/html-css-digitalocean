@@ -3,6 +3,7 @@
   padding-left: 0;
   padding-right: 0;
 }
+
 @media screen and (min-width:768px)  and (max-width: 1200px) {
   .container {
     width: 100%;
@@ -12,6 +13,13 @@
   }
 }
 
+.mb_color-blue {
+  color: #0d71ff;
+}
+a {
+  color: #096fff;
+  text-decoration: none !important;
+}
 /* HEADER */
 header {
   padding: 5px 0;
@@ -83,7 +91,7 @@ header {
 
 /* JUMBOTRON */
 #mb_jumbotron {
-  padding: 5% 0;
+  padding: 4% 0;
   background-image: url("../img/jumbo-bg.jpg");
   background-size: cover;
 }
@@ -104,6 +112,9 @@ header {
     font-size: 40px;
   }
 }
+.jumbotron {
+  padding: 25px 10px;
+}
 .container .jumbotron, .container-fluid .jumbotron {
   padding-left: 10px;
   padding-right: 10px;
@@ -112,7 +123,7 @@ header {
   text-align: center;
   background-color: white;
 }
-#mb_jumbotron .mb_right h3 {
+#mb_jumbotron .mb_right h2 {
   margin: 20px 0;
   font-weight: bolder;
 }
@@ -142,9 +153,9 @@ header {
   border: 1px solid lightgrey;
   color: grey;
 }
-#mb_jumbo-google-login i {
-  color: red;
+#mb_jumbo-google-login img {
   position: absolute;
+  max-height: 70%;
   left: 5px;
   top: 50%;
   transform: translateY(-50%);
@@ -154,10 +165,35 @@ header {
 main > section {
 
   /* debug */
-  min-height: 250px;
   background-color: lightgreen;
+  border: 1px solid black;
 
 }
+
+/* CUSTOMERS */
+#mb_customers {
+  padding: 2% 0;
+  background-color: #f3f5f9;
+}
+#mb_customers .row > div {
+  text-align: center;
+}
+#mb_customers .row > div > h4 {
+  margin-bottom: 30px;
+  color: grey;
+  font-weight: bold;
+}
+#mb_customers .row > div > a {
+  display: inline-block;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 15px;
+}
+#mb_customers .row > div img {
+  max-width: 100%;
+}
+
+/* DEPLOY */
 
 
 
