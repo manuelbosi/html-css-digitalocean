@@ -24,13 +24,14 @@ header {
   background-color: transparent;
   border: none;
 }
-.navbar-brand img {
-  max-width: 100%;
-}
 .nav:first-child, .navbar-nav:first-child {
   padding-left: 120px;
 }
+.navbar-brand {
+  padding: 10px;
+}
 .navbar-brand img {
+
   max-height: 100%;
 }
 @media screen and (max-width: 992px) {
