@@ -253,17 +253,23 @@ main > section {
   text-align: center;
   background-color: #f3f5f9;
 }
+.carousel-inner {
+  background-color: transparent;
+}
 .carousel-caption {
-  padding: 0 0;
-  color: #031c4e;
+  position: static;
+  color: black;
+  text-shadow: none;
+  margin-bottom: 10px;
 }
 .carousel-indicators {
-
+  bottom: 0;
 }
 .carousel-indicators li {
-  border: 2px solid #031c4e;
-
+  border: 1px solid grey;
 }
+
+
 
 /* FEATURES */
 #mb_features {
