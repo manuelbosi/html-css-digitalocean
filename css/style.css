@@ -258,9 +258,10 @@ main > section {
 }
 .carousel-caption {
   position: static;
-  color: black;
+  margin-bottom: 15px;
+  color: #041b4b;
+  font-weight: bold;
   text-shadow: none;
-  margin-bottom: 10px;
 }
 .carousel-indicators {
   bottom: 0;
@@ -319,7 +320,7 @@ main > section {
 #mb_register {
   padding: 3% 0;
   background: rgb(0,61,183);
- background: linear-gradient(0deg, rgba(0,61,183,1) 42%, rgba(0,40,160,1) 69%);
+  background: linear-gradient(0deg, rgba(0,61,183,1) 42%, rgba(0,40,160,1) 69%);
 }
 #mb_register-txt {
   text-align: center;
