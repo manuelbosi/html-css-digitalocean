@@ -21,19 +21,29 @@ a {
   text-decoration: none !important;
 }
 
-/* TITOLO SEZIONI */
-.row .title {
+/* TITOLO / CONTENUTO - SEZIONI */
+.row .mb_title {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
-.row .title h2 {
+.row .mb_title h2 {
   margin-bottom: 15px;
   color: #031c4e;
   font-weight: bold;
 }
-.row .title p {
+.row .mb_title p {
   color: grey;
   font-size: 20px;
+}
+.row .mb_content h4{
+  font-weight: bold;
+  color: #031c4e;
+}
+.row .mb_content p{
+  color: grey;
+}
+.row .mb_content a{
+  font-size: 17px;
 }
 
 /* HEADER */
@@ -234,30 +244,18 @@ main > section {
   border-left: 2px solid grey;
   color: grey;
 }
-.mb_deploy-content {
-    padding: 10px 15px;
-}
-.mb_deploy-content h4{
-  margin: 20px 0 10px 0;
-}
-.mb_deploy-content p{
-  font-size: 15px;
-}
 
 /* CAROUSEL INFO */
 .mb_carousel-info {
   padding: 3% 0;
   text-align: center;
   background-color: #f3f5f9;
-  /* debug */
-  min-height: 600px;
 }
 .carousel-caption {
-  margin-bottom: -40px;
+  padding: 0 0;
   color: #031c4e;
 }
 .carousel-indicators {
-  margin-bottom: -70px;
 
 }
 .carousel-indicators li {
@@ -268,17 +266,46 @@ main > section {
 /* FEATURES */
 #mb_features {
   padding: 3% 0;
-  min-height: 300px;
-}
-#mb_features .row > div {
-  min-height: 50px;
-  border: 1px solid black;
+  background-color: white;
 }
 
-
-
-
-
+/* TABLE DATA */
+#mb_table-data {
+  padding: 3% 0;
+  background-color: #003ab7;
+  min-height: 400px;
+}
+#mb_table-data .mb_title h2 {
+  color: white;
+}
+#mb_table-data .row .mb_table {
+}
+#mb_table-data .row .mb_table td{
+  padding: 10px 15px;
+  color: white;
+  border: none;
+}
+#mb_table-data .row .mb_table tr td:first-child {
+  width: 15%;
+}
+#mb_table-data .row .mb_table tr td:nth-child(2) {
+  width: 60%;
+  color: lightgrey;
+}
+#mb_table-data .row .mb_table tr td:last-child {
+  text-align: right;
+  width: 25%;
+}
+#mb_table-data .row .mb_table tr,
+#mb_table-data .row .mb_table tr{
+  border-bottom: 1px solid white;
+}
+#mb_table-data .row .mb_table tr:last-child {
+  border: none;
+}
+#mb_table-data .row .mb_table td a{
+  color: #00b5cb;
+}
 
 /* FOOTER */
 footer {
