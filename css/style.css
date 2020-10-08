@@ -269,7 +269,12 @@ main > section {
 .carousel-indicators li {
   border: 1px solid grey;
 }
-
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+  color: #041b4b;
+  text-shadow: none;
+  opacity: 1.0;
+}
 
 
 /* FEATURES */
