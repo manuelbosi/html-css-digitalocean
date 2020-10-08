@@ -195,10 +195,34 @@ main > section {
 }
 
 /* DEPLOY */
+#mb_deploy {
+  padding: 3% 0;
+  /* debug */
+  min-height: 600px;
 
-
-
-
+}
+#mb_deploy-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+#mb_deploy-title h2 {
+  font-weight: bold;
+}
+#mb_deploy-title p {
+  font-size: 20px;
+}
+#mb_deploy .col-md-7, #mb_deploy .col-md-4, #mb_deploy .col-xs-8 {
+  /* debug */
+  min-height: 150px;
+  background-color: red;
+  border: 1px solid black;
+}
+#col-parent .row > div {
+  padding: 10px;
+  background-color: blue;
+  min-height: 50px;
+  border: 1px solid black;
+}
 /* FOOTER */
 footer {
 
