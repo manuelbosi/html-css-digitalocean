@@ -197,9 +197,7 @@ main > section {
 /* DEPLOY */
 #mb_deploy {
   padding: 3% 0;
-  /* debug */
-  min-height: 600px;
-
+  background-color: white;
 }
 #mb_deploy-title {
   text-align: center;
@@ -207,22 +205,47 @@ main > section {
 }
 #mb_deploy-title h2 {
   font-weight: bold;
+  color: #031c4e;
 }
 #mb_deploy-title p {
   font-size: 20px;
+  color: grey;
+
 }
-#mb_deploy .col-md-7, #mb_deploy .col-md-4, #mb_deploy .col-xs-8 {
-  /* debug */
-  min-height: 150px;
-  background-color: red;
-  border: 1px solid black;
+#mb_deploy #mb_deploy-list {
+  padding-left: 60px;
 }
-#col-parent .row > div {
-  padding: 10px;
-  background-color: blue;
-  min-height: 50px;
-  border: 1px solid black;
+@media all and (max-width:992px) {
+  #mb_deploy #mb_deploy-list {
+    padding-left: 0;
+  }
+  #mb_deploy #mb_deploy-list ul {
+    padding-left: 15px;
+    margin-bottom: 20px;
+  }
 }
+#mb_deploy #mb_deploy-list ul li {
+  padding: 15px 10px;
+  list-style: none;
+  font-size: 20px;
+  border-left: 2px solid grey;
+  color: grey;
+}
+.mb_deploy-content {
+    padding: 10px 15px;
+}
+.mb_deploy-content h4{
+  color: #031c4e;
+  font-weight: bold;
+  margin: 20px 0 10px 0;
+}
+.mb_deploy-content p{
+  color: grey;
+}
+
+/* CAROUSEL INFO */
+
+
 /* FOOTER */
 footer {
 
