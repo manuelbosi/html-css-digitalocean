@@ -203,14 +203,15 @@ main > section {
   text-align: center;
   margin-bottom: 50px;
 }
-#mb_deploy-title h2 {
+#mb_deploy h2, #mb_deploy h4{
   font-weight: bold;
   color: #031c4e;
 }
-#mb_deploy-title p {
-  font-size: 20px;
+#mb_deploy p {
   color: grey;
-
+}
+#mb_deploy-title p {
+  font-size: 25px;
 }
 #mb_deploy #mb_deploy-list {
   padding-left: 60px;
@@ -235,12 +236,10 @@ main > section {
     padding: 10px 15px;
 }
 .mb_deploy-content h4{
-  color: #031c4e;
-  font-weight: bold;
   margin: 20px 0 10px 0;
 }
 .mb_deploy-content p{
-  color: grey;
+  font-size: 15px;
 }
 
 /* CAROUSEL INFO */
